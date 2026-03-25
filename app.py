@@ -1,8 +1,8 @@
 from azure.cosmos import CosmosClient
 from flask import Flask, jsonify, render_template, request ,redirect
 
-COSMOS_URI = ""
-COSMOS_KEY = ""
+COSMOS_URI = "https://cosmosdb-user123.documents.azure.com:443/"
+COSMOS_KEY = "V620s0XxckARoXXbBD6BM9eBttdGmTUYkHWffivDxTmnzICNu0opkD8CHV36BkH7D7vHwdDgvJx8ACDbPQ1zBg=="
 
 DATABASE_NAME = "cosmos-db"
 CONTAINER_NAME = "cosmos-container"
